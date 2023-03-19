@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./assets/images/favicon-32x32.png"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+         rel="stylesheet"
+      />
+      <title>Frontend Mentor | News homepage</title>
+
+      <link rel="stylesheet" href="src/css/index.css" />
+      <link rel="stylesheet" href="src/css/nav.css" />
+      <link rel="stylesheet" href="src/css/hero.css" />
+      <link rel="stylesheet" href="src/css/new.css" />
+      <link rel="stylesheet" href="src/css/categories.css" />
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+         .attribution {
+            font-size: 11px;
+            text-align: center;
+         }
+         .attribution a {
+            color: hsl(228, 45%, 44%);
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="nav container" id="home">
+         <img src="./assets/images/logo.svg" alt="nav_logo" />
+         <ul class="nav_list">
+            <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="#new" class="nav_link">New</a></li>
+            <li class="nav_item">
+               <a href="#popular" class="nav_link">Popular</a>
+            </li>
+            <li class="nav_item">
+               <a href="#trending" class="nav_link">Trending</a>
+            </li>
+            <li class="nav_item">
+               <a href="#categories" class="nav_link">Categories</a>
+            </li>
+         </ul>
+         <img
+            src="./assets/images/icon-menu.svg"
+            class="nav_menu"
+            alt="nav_menu"
+         />
+      </nav>
+
+      <!-- Hero -->
+      <main class="main">
+
+          <section class="hero container" id="popular">
+              <img
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt="hero-image"
+            class="hero-image"
+            />
+         <div class="hero-body">
+             <h2 class="hero-title">The Bright Future of Web 3.0?</h2>
+            <p class="hero-paragraph">
+               We dive into the next evolution of the web that claims to put the
+               power of the platforms back into the hands of the people. But is
+               it really fulfilling its promise?
+            </p>
+         </div>
+         <a href="#new" class="hero-cta" alt="read more">READ MORE</a>
+        </section>
+    
+        <section id="new">
+
+        </section>
+    </main>
+      <!-- <div class="attribution">
+         Challenge by
+         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+         >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+      <script src="./src/js/nav.js"></script>
+   </body>
+</html>

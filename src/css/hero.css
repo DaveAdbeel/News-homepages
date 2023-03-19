@@ -1,0 +1,39 @@
+@import url("./index.css");
+
+.hero{
+    display: grid;
+    gap: 20px;
+}
+.hero-image{
+    width: min(100%, 686px);
+    object-fit: cover;
+}
+
+.hero-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+}
+
+.hero-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--very-dark-blue);
+}
+
+.hero-paragraph{
+    font-weight: 400;
+    color:var(--dark-grayish-blue);
+    line-height: 2rem;
+
+}    
+.hero-cta{
+    background-color: var(--soft-red);
+    justify-self: start;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 17px 30px;
+    color: var(--off-white);
+}
