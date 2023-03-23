@@ -1,0 +1,31 @@
+.new {
+   margin-top: 80px;
+   background-color: var(--very-dark-blue);
+   padding: 20px;
+}
+.new .new-title {
+   color: var(--soft-orange);
+   margin-bottom: 30px;
+}
+.new > .new-content {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   color: var(--off-white);
+}
+
+.new .new-body {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.new .new-content hr{
+    background-color: var(--dark-grayish-blue);
+    border-style: var(--dark-grayish-blue);
+    height: 1px;
+}
+
+.new .new-body .new-paragraph {
+   color: var(--dark-grayish-blue);
+}
