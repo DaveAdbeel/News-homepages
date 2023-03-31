@@ -50,16 +50,26 @@
       <nav class="nav container" id="home">
          <img src="./assets/images/logo.svg" alt="nav_logo" />
          <ul class="nav_list">
-            <li class="nav_item"><a href="#home" class="nav_link" onclick="closeNav()">Home</a></li>
-            <li class="nav_item" ><a href="#new" class="nav_link" onclick="closeNav()">New</a></li>
-            <li class="nav_item" >
-               <a href="#popular" class="nav_link" onclick="closeNav()">Popular</a>
+            <li class="nav_item">
+               <a href="#home" class="nav_link" onclick="closeNav()">Home</a>
             </li>
-            <li class="nav_item" >
-               <a href="#trending" class="nav_link" onclick="closeNav()">Trending</a>
+            <li class="nav_item">
+               <a href="#new" class="nav_link" onclick="closeNav()">New</a>
             </li>
-            <li class="nav_item" >
-               <a href="#categories" class="nav_link" onclick="closeNav()">Categories</a>
+            <li class="nav_item">
+               <a href="#popular" class="nav_link" onclick="closeNav()"
+                  >Popular</a
+               >
+            </li>
+            <li class="nav_item">
+               <a href="#trending" class="nav_link" onclick="closeNav()"
+                  >Trending</a
+               >
+            </li>
+            <li class="nav_item">
+               <a href="#categories" class="nav_link" onclick="closeNav()"
+                  >Categories</a
+               >
             </li>
          </ul>
          <img
@@ -69,23 +79,25 @@
          />
       </nav>
 
-      <main class="main">
+      <main class="main container">
          <!-- Hero -->
          <section class="hero container" id="popular">
-            <img
-               src="./assets/images/image-web-3-mobile.jpg"
+            <div
+               
                alt="hero-image"
-               class="hero-image"
-            />
+               class="hero-image"></div>
+            
             <div class="hero-body">
                <h2 class="hero-title">The Bright Future of Web 3.0?</h2>
-               <p class="hero-paragraph">
-                  We dive into the next evolution of the web that claims to put
-                  the power of the platforms back into the hands of the people.
-                  But is it really fulfilling its promise?
-               </p>
+               <div class="hero-text">
+                  <p class="hero-paragraph">
+                     We dive into the next evolution of the web that claims to
+                     put the power of the platforms back into the hands of the
+                     people. But is it really fulfilling its promise?
+                  </p>
+                  <a href="#new" class="hero-cta" alt="read more">READ MORE</a>
+               </div>
             </div>
-            <a href="#new" class="hero-cta" alt="read more">READ MORE</a>
          </section>
 
          <!-- New -->

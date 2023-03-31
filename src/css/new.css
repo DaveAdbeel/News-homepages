@@ -29,3 +29,9 @@
 .new .new-body .new-paragraph {
    color: var(--dark-grayish-blue);
 }
+
+@media (min-width: 768px) {
+    .new{
+        flex:1;
+    }
+}

@@ -1,39 +1,90 @@
 @import url("./index.css");
 
-.hero{
-    display: grid;
-    gap: 20px;
+.hero {
+   display: grid;
+   gap: 20px;
 }
-.hero-image{
-    width: min(100%, 686px);
-    object-fit: cover;
-}
-
-.hero-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 15px;
+.hero-image {
+   width: min(100%, 686px);
+   
+   background: url("../../assets/images/image-web-3-mobile.jpg") cover 100%;
 }
 
-.hero-title{
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: var(--very-dark-blue);
+.hero-body {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   gap: 0.9375rem;
+}
+.hero-text {
+   display: grid;
+   gap: 0.9375rem;
+}
+.hero-title {
+   font-weight: 800;
+   font-size: 2.5rem;
+   color: var(--very-dark-blue);
 }
 
-.hero-paragraph{
-    font-weight: 400;
-    color:var(--dark-grayish-blue);
-    line-height: 2rem;
+.hero-paragraph {
+   font-weight: 400;
+   color: var(--dark-grayish-blue);
+   line-height: 2rem;
+}
+.hero-cta {
+   background-color: var(--soft-red);
+   justify-self: start;
+   letter-spacing: 0.3rem;
+   font-weight: 700;
+   text-decoration: none;
+   padding: 1.0625rem 1.875rem;
+   color: var(--off-white);
+}
 
-}    
-.hero-cta{
-    background-color: var(--soft-red);
-    justify-self: start;
-    letter-spacing: .3rem;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 17px 30px;
-    color: var(--off-white);
+@media (min-width: 768px) {
+   .main {
+      display: flex;
+   }
+
+   .hero#popular {
+      margin: 0 !important;
+      width: 100% !important;
+      flex: 3;
+      display: grid;
+      gap: 1.25rem;
+   }
+   .hero-image {
+      width: auto;
+      height: 400px;
+      background: url("../../assets/images/image-web-3-desktop.jpg") cover
+         bottom;
+   }
+
+   .hero-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      gap: 15px;
+   }
+
+   .hero-title {
+      font-weight: 800;
+      font-size: 2.5rem;
+      color: var(--very-dark-blue);
+   }
+
+   .hero-paragraph {
+      font-weight: 400;
+      color: var(--dark-grayish-blue);
+      line-height: 2rem;
+   }
+   .hero-cta {
+      background-color: var(--soft-red);
+      justify-self: start;
+      letter-spacing: 0.3rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 17px 30px;
+      color: var(--off-white);
+   }
 }
