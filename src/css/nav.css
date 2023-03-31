@@ -4,7 +4,7 @@
 
     height: 90px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .nav_list{
@@ -35,3 +35,4 @@
     cursor: pointer;
     z-index: 100;
 }
+

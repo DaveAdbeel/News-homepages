@@ -9,4 +9,11 @@ nav_menu.addEventListener("click", () => {
    nav_menu_state === "./assets/images/icon-menu.svg"
       ? nav_menu.setAttribute("src", "./assets/images/icon-menu-close.svg")
       : nav_menu.setAttribute("src", "./assets/images/icon-menu.svg");
+    
 });
+
+function closeNav(){
+    nav_list.classList.replace("nav_list--show", "nav_list")
+    console.log("objecat");
+    body.classList.remove("body--show");
+}
