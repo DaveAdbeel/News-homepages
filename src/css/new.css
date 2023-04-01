@@ -1,5 +1,4 @@
 .new {
-
    background-color: var(--very-dark-blue);
    padding: 20px;
 }
@@ -20,10 +19,10 @@
    gap: 10px;
 }
 
-.new .new-content hr{
-    background-color: var(--dark-grayish-blue);
-    border-style: var(--dark-grayish-blue);
-    height: 1px;
+.new .new-content hr {
+   background-color: var(--dark-grayish-blue);
+   border-style: var(--dark-grayish-blue);
+   height: 1px;
 }
 
 .new .new-body .new-paragraph {
@@ -31,7 +30,25 @@
 }
 
 @media (min-width: 768px) {
-    .new{
-        flex:1;
-    }
+   .new {
+      flex: 3;
+      margin: 0 !important;
+   }
+
+   .new .new-title {
+      font-size: 2.5rem;
+   }
+   .new > .new-content {
+      gap: 35px;
+   }
+
+   .new .new-body {
+      gap: 15px;
+
+      font-size: 1.5rem;
+   }
+
+   .new .new-body .new-paragraph {
+      font-size: 1.4rem;
+   }
 }
