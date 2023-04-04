@@ -1,6 +1,8 @@
 @import url("./index.css");
 .main{
     margin-top: 0!important;
+    display: flex;
+    flex-wrap: wrap;
 }
 #popular.hero {
    display: grid;
@@ -24,7 +26,7 @@
 }
 .hero-title {
    font-weight: 800;
-   font-size: 2.5rem;
+   font-size: clamp(2rem, 3.2vw, 5.5rem);;
    color: var(--very-dark-blue);
 }
 
@@ -68,9 +70,6 @@
       gap: 70px;
    }
 
-   .hero-title {
-      font-size: 4.25rem;
-   }
 
    .hero-paragraph {
       font-size: 1.25rem;

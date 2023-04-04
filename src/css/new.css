@@ -24,9 +24,12 @@
    border-style: var(--dark-grayish-blue);
    height: 1px;
 }
-
+.new .new-body .new-subtitle{
+    font-size: clamp(1rem, 2.7vw, 1.5rem);
+}
 .new .new-body .new-paragraph {
-   color: var(--dark-grayish-blue);
+    color: var(--dark-grayish-blue);
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 @media (min-width: 768px) {

@@ -19,7 +19,7 @@ function closeNav(){
     body.classList.remove("body--show");
 }
 
-const mediaquerySM = mediaqueryList = window.matchMedia("(min-width: 880px)");
+const mediaquerySM = mediaqueryList = window.matchMedia("(min-width: 1100px)");
 
 if(mediaquerySM.matches){
     if (imgHero.getAttribute("src") === "../../assets/images/image-web-3-desktop.jpg"){
