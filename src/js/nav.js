@@ -31,10 +31,10 @@ if(mediaquerySM.matches){
 }
 
 mediaquerySM.addEventListener("change", function(){
-    if (imgHero.getAttribute("src") === "../../assets/images/image-web-3-desktop.jpg"){
-        imgHero.setAttribute("src", "../../assets/images/image-web-3-mobile.jpg");
+    if (imgHero.getAttribute("src") === "./assets/images/image-web-3-desktop.jpg"){
+        imgHero.setAttribute("src", "./assets/images/image-web-3-mobile.jpg");
     }else{
-        imgHero.setAttribute("src", "../../assets/images/image-web-3-desktop.jpg");
+        imgHero.setAttribute("src", "./assets/images/image-web-3-desktop.jpg");
     }
 })
 
