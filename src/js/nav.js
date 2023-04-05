@@ -22,10 +22,10 @@ function closeNav(){
 const mediaquerySM = mediaqueryList = window.matchMedia("(min-width: 1100px)");
 
 if(mediaquerySM.matches){
-    if (imgHero.getAttribute("src") === "../../assets/images/image-web-3-desktop.jpg"){
-        imgHero.setAttribute("src", "../../assets/images/image-web-3-mobile.jpg");
+    if (imgHero.getAttribute("src") === "./assets/images/image-web-3-desktop.jpg"){
+        imgHero.setAttribute("src", "./assets/images/image-web-3-mobile.jpg");
     }else{
-        imgHero.setAttribute("src", "../../assets/images/image-web-3-desktop.jpg");
+        imgHero.setAttribute("src", "./assets/images/image-web-3-desktop.jpg");
     }
 
 }
